@@ -11,7 +11,7 @@ struct PaddingBootcamp: View {
     var body: some View {
         VStack {
             Button {
-                print("d")
+                print("")
             } label: {
                 VStack {
                     Text("hello")

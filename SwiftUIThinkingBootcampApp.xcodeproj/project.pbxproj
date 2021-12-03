@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF30C84B2758C041009887E1 /* ScrollViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF30C84A2758C041009887E1 /* ScrollViewBootcamp.swift */; };
+		DF61D14F2758F267006F6062 /* PaddingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61D14E2758F267006F6062 /* PaddingBootcamp.swift */; };
+		DF61D1512758F417006F6062 /* LazyVGridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61D1502758F417006F6062 /* LazyVGridBootcamp.swift */; };
+		DF6EFF60275A39A300EC80AE /* ButtonBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EFF5F275A39A300EC80AE /* ButtonBootcamp.swift */; };
 		DF783FC127550EE2009A9A9A /* SwiftUIThinkingBootcampAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF783FC027550EE2009A9A9A /* SwiftUIThinkingBootcampAppApp.swift */; };
 		DF783FC327550EE2009A9A9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF783FC227550EE2009A9A9A /* ContentView.swift */; };
 		DF783FC527550EE3009A9A9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF783FC427550EE3009A9A9A /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF30C84A2758C041009887E1 /* ScrollViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewBootcamp.swift; sourceTree = "<group>"; };
+		DF61D14E2758F267006F6062 /* PaddingBootcamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingBootcamp.swift; sourceTree = "<group>"; };
+		DF61D1502758F417006F6062 /* LazyVGridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridBootcamp.swift; sourceTree = "<group>"; };
+		DF6EFF5F275A39A300EC80AE /* ButtonBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBootcamp.swift; sourceTree = "<group>"; };
 		DF783FBD27550EE2009A9A9A /* SwiftUIThinkingBootcampApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIThinkingBootcampApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF783FC027550EE2009A9A9A /* SwiftUIThinkingBootcampAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIThinkingBootcampAppApp.swift; sourceTree = "<group>"; };
 		DF783FC227550EE2009A9A9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +43,10 @@
 		DF783FB427550EE2009A9A9A = {
 			isa = PBXGroup;
 			children = (
+				DF6EFF5F275A39A300EC80AE /* ButtonBootcamp.swift */,
+				DF61D1502758F417006F6062 /* LazyVGridBootcamp.swift */,
+				DF30C84A2758C041009887E1 /* ScrollViewBootcamp.swift */,
+				DF61D14E2758F267006F6062 /* PaddingBootcamp.swift */,
 				DF783FBF27550EE2009A9A9A /* SwiftUIThinkingBootcampApp */,
 				DF783FBE27550EE2009A9A9A /* Products */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF61D14F2758F267006F6062 /* PaddingBootcamp.swift in Sources */,
+				DF30C84B2758C041009887E1 /* ScrollViewBootcamp.swift in Sources */,
 				DF783FC327550EE2009A9A9A /* ContentView.swift in Sources */,
 				DF783FC127550EE2009A9A9A /* SwiftUIThinkingBootcampAppApp.swift in Sources */,
+				DF6EFF60275A39A300EC80AE /* ButtonBootcamp.swift in Sources */,
+				DF61D1512758F417006F6062 /* LazyVGridBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

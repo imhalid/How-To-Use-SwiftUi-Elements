@@ -19,26 +19,33 @@ struct FunctionsBootcamp: View {
             Text(textBody)
                 .font(.largeTitle)
                 .shadow(radius: 6)
-                
-            Button {
-                changeColorAndText()
-            } label: {
-                Text(textBody)
-                    .padding(5)
-                    .background(color)
-                    .foregroundColor(.white)
-                    .cornerRadius(8)
-                    
-            }
+            buttonCustom
 
         }
         
     }
+    var buttonCustom: some View {
+        Button {
+            changeColorAndText()
+        } label: {
+            Text(textBody)
+                .padding(5)
+                .background(color)
+                .foregroundColor(.white)
+                .cornerRadius(8)
+                
+        }
+    }
+    
     func changeColorAndText() {
         color = Color.indigo
         textBody = "Good job"
     }
 }
+
+
+    
+
 
 struct FunctionsBootcamp_Previews: PreviewProvider {
     static var previews: some View {

@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct SwiftUIThinkingBootcampAppApp: App {
+
     var body: some Scene {
         WindowGroup {
             TabView {
+                IfAndElseBootcamp()
                 AnotherViewBootcamp()
                 PaddingBootcamp()
                 FunctionsBootcamp()

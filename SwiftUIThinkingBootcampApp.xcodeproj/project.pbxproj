@@ -11,6 +11,7 @@
 		DF44721B27615706005334C5 /* AnotherViewBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF44721A27615706005334C5 /* AnotherViewBootcamp.swift */; };
 		DF4AED08275B84CD00C39378 /* StateBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4AED07275B84CD00C39378 /* StateBootcamp.swift */; };
 		DF4C2319275EBB0100BFE152 /* FunctionsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4C2318275EBB0100BFE152 /* FunctionsBootcamp.swift */; };
+		DF5157CD27635B79005045B1 /* IfAndElseBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF5157CC27635B79005045B1 /* IfAndElseBootcamp.swift */; };
 		DF61D14F2758F267006F6062 /* PaddingBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61D14E2758F267006F6062 /* PaddingBootcamp.swift */; };
 		DF61D1512758F417006F6062 /* LazyVGridBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF61D1502758F417006F6062 /* LazyVGridBootcamp.swift */; };
 		DF6EFF60275A39A300EC80AE /* ButtonBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6EFF5F275A39A300EC80AE /* ButtonBootcamp.swift */; };
@@ -25,6 +26,7 @@
 		DF44721A27615706005334C5 /* AnotherViewBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherViewBootcamp.swift; sourceTree = "<group>"; };
 		DF4AED07275B84CD00C39378 /* StateBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBootcamp.swift; sourceTree = "<group>"; };
 		DF4C2318275EBB0100BFE152 /* FunctionsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsBootcamp.swift; sourceTree = "<group>"; };
+		DF5157CC27635B79005045B1 /* IfAndElseBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfAndElseBootcamp.swift; sourceTree = "<group>"; };
 		DF61D14E2758F267006F6062 /* PaddingBootcamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaddingBootcamp.swift; sourceTree = "<group>"; };
 		DF61D1502758F417006F6062 /* LazyVGridBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyVGridBootcamp.swift; sourceTree = "<group>"; };
 		DF6EFF5F275A39A300EC80AE /* ButtonBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonBootcamp.swift; sourceTree = "<group>"; };
@@ -50,6 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				DF44721A27615706005334C5 /* AnotherViewBootcamp.swift */,
+				DF5157CC27635B79005045B1 /* IfAndElseBootcamp.swift */,
 				DF4C2318275EBB0100BFE152 /* FunctionsBootcamp.swift */,
 				DF4AED07275B84CD00C39378 /* StateBootcamp.swift */,
 				DF6EFF5F275A39A300EC80AE /* ButtonBootcamp.swift */,
@@ -162,6 +165,7 @@
 				DF4AED08275B84CD00C39378 /* StateBootcamp.swift in Sources */,
 				DF61D14F2758F267006F6062 /* PaddingBootcamp.swift in Sources */,
 				DF30C84B2758C041009887E1 /* ScrollViewBootcamp.swift in Sources */,
+				DF5157CD27635B79005045B1 /* IfAndElseBootcamp.swift in Sources */,
 				DF783FC327550EE2009A9A9A /* ContentView.swift in Sources */,
 				DF783FC127550EE2009A9A9A /* SwiftUIThinkingBootcampAppApp.swift in Sources */,
 				DF6EFF60275A39A300EC80AE /* ButtonBootcamp.swift in Sources */,

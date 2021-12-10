@@ -11,7 +11,15 @@ import SwiftUI
 struct SwiftUIThinkingBootcampAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                AnotherViewBootcamp()
+                PaddingBootcamp()
+                FunctionsBootcamp()
+                StateBootcamp()
+                ButtonBootcamp()
+                LazyVGridBootcamp()
+                ScrollViewBootcamp()
+            }.tabViewStyle(PageTabViewStyle())
         }
     }
 }

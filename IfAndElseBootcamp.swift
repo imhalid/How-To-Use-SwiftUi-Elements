@@ -15,6 +15,9 @@ struct IfAndElseBootcamp: View {
             if ((counter % 2) == 0) {
                 Circle()
                     .frame(width: 80, height: 80)
+            } else {
+                Rectangle()
+                    .frame(width: 80, height: 80)
             }
             Spacer()
             Text("\(counter)")

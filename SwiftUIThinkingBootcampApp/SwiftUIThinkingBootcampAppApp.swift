@@ -12,16 +12,26 @@ struct SwiftUIThinkingBootcampAppApp: App {
 
     var body: some Scene {
         WindowGroup {
-            TabView {
-                IfAndElseBootcamp()
-                AnotherViewBootcamp()
-                PaddingBootcamp()
-                FunctionsBootcamp()
-                StateBootcamp()
-                ButtonBootcamp()
-                LazyVGridBootcamp()
-                ScrollViewBootcamp()
-            }.tabViewStyle(PageTabViewStyle())
+            Group {
+                TabView {
+                    SheetsBootcamp()
+                        AnimationTimingBootcamp()
+                    TransitionAnimationBootcamp()
+                    AnimationBootcamp()
+                    TernaryOperators()
+                    IfAndElseBootcamp()
+                    
+                }.tabViewStyle(PageTabViewStyle())
+                TabView {
+                    AnotherViewBootcamp()
+                    PaddingBootcamp()
+                    FunctionsBootcamp()
+                    StateBootcamp()
+                    ButtonBootcamp()
+                    LazyVGridBootcamp()
+                    ScrollViewBootcamp()
+                }.tabViewStyle(PageTabViewStyle())
+            }
         }
     }
 }
